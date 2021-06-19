@@ -15,6 +15,24 @@
 }
 .services{
     background-image: url('/assets/backgrounds/s_image.jpg'); 
+    color: white;
+}
+p{
+    text-align: center;
+}
+.what-we-do{
+    margin-top: 3%;
+}
+.portfolio{
+    margin-top: 3%;
+}
+.row-one{
+    display: inline;
+    flex-direction: row;
+}
+
+.inside-services{
+    padding-top: 7%; padding-bottom: 7%;
 }
 
 
