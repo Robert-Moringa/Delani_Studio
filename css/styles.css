@@ -1,12 +1,17 @@
-.top{
+.toptop{
     background-image: url("/assets/backgrounds/h_img.jpg");
+}
+.top{
     text-align: center;
+    background-size: 1300px 650px;
+    color: white;
+    padding-top: 50px; padding-bottom: 50px;
 }
 .col-md-10{
     text-align: center;
 }
 .about{
-   
+   padding-top: 3%; padding-left: 10%; padding-right: 10%;
 }
 .services{
     background-image: url('/assets/backgrounds/s_image.jpg'); 
