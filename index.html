@@ -16,9 +16,9 @@
         <div class="col-md-1"></div>
 
         <div class="col-md-10">
-            <div class="toptop">
+            <div class="toptop" style="background-image: url('assets/backgrounds/h_img.jpg');"></body>>
                 <div class="top">
-                    <img src="/assets/logo/logo.png" alt="" width="3%"  >
+                    <img src="assets/logo/logo.png" alt="" width="3%"  >
                     <h2>WELCOME</h2>
                     <h2>TO DELANI STUDIOS</h2>
                     <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
@@ -33,7 +33,7 @@
                 <p>Then we help translate them into effective and elegant solutions.</p>
             </div>
     
-            <div class="services">
+            <div class="services" style="background-image: url('assets/backgrounds/s_image.jpg')">
                 <div class="inside-services">
                     <h3>SERVICES</h3>
                     <p>Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision.</p>
@@ -46,56 +46,78 @@
                 <h3>WHAT WE DO</h3>
                 <div class="row">
                     <div class="col design">
-                        <img src="/assets/services_icons/design_icon.png" alt="" width="8%">
+                        <img id="design-icon" src="assets/services_icons/design_icon.png" alt="" width="8%">
                         <p>DESIGN</p>
+
+                        <!-- toggle -->
+                        <div id="toggle-design">
+                            <h3>DESIGN</h3>
+                            <p>Our design practice offers a full range of services including rand strategy,interaction and visual designand their user experience testing. </p>
+                            <p>Throughout your project, our designers create and implement visual designs and workflows, solicit user feedack and work with you to make sure what gets uilt is what is needed.</p>
+                        </div>
                     </div>
 
                     <div class="col dev">
-                        <img src="/assets/services_icons/dev_icon.png" alt="" width="8%">
+                        <img id="dev-icon" src="assets/services_icons/dev_icon.png" alt="" width="8%">
                         <p>DEVELOPMENT</p>
+
+                        <!-- toggle -->
+                        <div id="toggle-dev">
+                            <h3>DEVELOPMENT</h3>
+                            <p>All engineers are fluent in the latest enterprice, mobile and web developement technologies. </p>
+                            <p>They collaborate with your team to write, and improve on a daily basis, using proven practices such as test-driven developement and pair programming.</p>
+                        </div>
+                
                     </div>
 
                     <div class="col prod">
-                        <img src="/assets/services_icons/product_icon.png" alt="" width="8%">
+                        <img id="project-icon" src="assets/services_icons/product_icon.png" alt="" width="8%">
                         <p>PRODUCT MANAGEMENT</p>
+
+                        <!-- toggle -->
+                        <div id="toggle-project">
+                            <h3>PROJECT MANAGEMENT</h3>
+                            <p>Planning and developement is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. </p>
+                            <p>The iterative process allows for changes as business requirements evolve.</p>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="portfolio">
                 <h3>PORTFOLIO</h3>
-                <div class="container">
-                    <div class="row row-one">
-                        <img src="/assets/portfolio/work4.jpg" alt="" width="2%">
-                        <img src="/assets/portfolio/work3.jpg" alt="" width="24%">
-                        <img src="/assets/portfolio/work2.jpg" alt="" width="24%">
-                        <img src="/assets/portfolio/work1.jpg" alt="" width="24%">
-                    </div>
-                    <div class="row">
-                        <img src="/assets/portfolio/work5.jpg" alt="">
-                        <img src="/assets/portfolio/work6.jpg" alt="">
-                        <img src="/assets/portfolio/work7.jpg" alt="">
-                        <img src="/assets/portfolio/work8.jpg" alt="">
-                    </div>
+                <div class="row row-one">
+                        <img src="assets/portfolio/work4.jpg" alt="">
+                        <img src="assets/portfolio/work3.jpg" alt="" >
+                        <img src="assets/portfolio/work2.jpg" alt="" >
+                        <img src="assets/portfolio/work1.jpg" alt="" >
                 </div>
+
+                <div class="row">
+                    <img src="assets/portfolio/work5.jpg" alt="">
+                    <img src="assets/portfolio/work6.jpg" alt="">
+                    <img src="assets/portfolio/work7.jpg" alt="">
+                    <img src="assets/portfolio/work8.jpg" alt="">
+                </div>
+
                 <div class="row">
 
                 </div>
             </div>
-
-            <div class="contact">
+            
+            <div class="contact" style="background-image: url('assets/backgrounds/c_image.jpg');">
                 <h3>CONTACT US</h3>
-                <form action="" class="row">
-                    <div class="row">
-                        <div class="col-6">
+                <form action="" class="row contacts">
+                    <div class="row inputs">
+                        <div class="col-4">
                             <input type="text" class="form-control" placeholder="Name" aria-label="Name">
                         </div>
     
-                        <div class="col-6">
+                        <div class="col-4">
                             <input type="email" class="form-control" id="inputEmail4" placeholder="Email...">
                         </div>
                     </div>
-                    <div class="md-form">
+                    <div class="col-8 md-form">
                         <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" placeholder="Your message here..." ></textarea>
                         
                     </div>
@@ -103,14 +125,14 @@
             </div>
 
             <div class="footer row">
-                <img src="/assets/social_icons/twitter.png" alt="" width="5px">
-                <img src="/assets/social_icons/dribble.png" alt="" width="5px">
-                <img src="/assets/social_icons/facebook.png" alt="" width="5px">
-                <img src="/assets/social_icons/g_plus.png" alt="" width="5px">
-                <img src="/assets/social_icons/skype.png" alt="" width="5px">
-                <img src="/assets/social_icons/stumble_upon.png" alt="">
-                <img src="/assets/social_icons/behance.png" alt="">
-                <img src="/assets/social_icons/flickr.png" alt="">
+                <img src="assets/social_icons/twitter.png" alt="" width="5px">
+                <img src="assets/social_icons/dribble.png" alt="" width="5px">
+                <img src="assets/social_icons/facebook.png" alt="" width="5px">
+                <img src="assets/social_icons/g_plus.png" alt="" width="5px">
+                <img src="assets/social_icons/skype.png" alt="" width="5px">
+                <img src="assets/social_icons/stumble_upon.png" alt="">
+                <img src="assets/social_icons/behance.png" alt="">
+                <img src="assets/social_icons/flickr.png" alt="">
             </div>
 
             <p>DELANI STUDIO</p>
@@ -119,7 +141,6 @@
         </div>
 
         <div class="col-md-1"></div>
-
         
     </div>
     
