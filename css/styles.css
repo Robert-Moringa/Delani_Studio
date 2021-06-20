@@ -49,12 +49,24 @@ p{
 .inputs{
     display: flex;
     justify-content: center;
+    background: transparent;
+}
+input{
+    background: transparent;
 }
 .md-form{
     display: flex;
     justify-content: center;
     margin-top: 2%;
+    margin-bottom: 2%;
+}
+.btn{
+    /* width: 10px; */
+    text-align: center;
+    color: black;
+    background-color: white;
     margin-bottom: 7%;
+    /* float: left; margin-left: 3%; */
 }
 
 .inside-services{
