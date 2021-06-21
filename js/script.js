@@ -1,7 +1,17 @@
 $(document).ready(function() {
-    $("#design-icon").click(function(){
+    $(".clickable").click(function(){
         $("#toggle-design").show();
+        $("#design").hide();
     });
+
+
+    // hover
+    $("#quickmax").hover(function(){
+      $(this).css("background-color", "yellow");
+      }, function(){
+      $(this).css("background-color", "pink");
+    });
+  
 
     $("form").submit(function(){
       var name= $("#names").val();
@@ -9,4 +19,12 @@ $(document).ready(function() {
     });
        
 });
+
+$(document).ready(function() {
+  $(".clickable").click(function() {
+    $(".walrus-showing").toggle();
+    $(".walrus-hidden").toggle();
+  });
+});
+
 

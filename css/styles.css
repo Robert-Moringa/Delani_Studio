@@ -29,6 +29,9 @@ p{
 .portfolio{
     margin-top: 3%;
 }
+.design {
+    cursor: pointer;
+}
 .group-one{
     display: flex;
     justify-content: space-around;
@@ -106,4 +109,9 @@ input{
 #toggle-design, #toggle-dev, #toggle-project{
     display: none;
     text-align: center;
+}
+
+@media only screen and (max-width: 320px){
+    body{font-size: 80%; }
+    .what-we-do{display: block;}
 }
