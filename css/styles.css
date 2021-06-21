@@ -1,3 +1,7 @@
+.{
+    font-family: 'Lato', sans-serif;
+}
+
 .toptop{
     /* background-image: url("assets/backgrounds/h_img.jpg"); */
 }
@@ -25,6 +29,10 @@ p{
 .portfolio{
     margin-top: 3%;
 }
+.group-one{
+    display: flex;
+    justify-content: space-around;
+}
 .row-one{
     display: inline;
     flex-direction: row;
@@ -49,10 +57,10 @@ p{
 .inputs{
     display: flex;
     justify-content: center;
-    background: transparent;
+
 }
 input{
-    background: transparent;
+    background-color: inherit;
 }
 .md-form{
     display: flex;
@@ -78,9 +86,24 @@ input{
     padding-bottom: 100px;
 }
 
-.footer
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    margin: 2%;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .footer>image{
-    width: 30%;
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    margin: 2%;
+    padding: 5px;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #toggle-design, #toggle-dev, #toggle-project{
