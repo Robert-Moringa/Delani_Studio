@@ -32,6 +32,7 @@ p{
 .group-one{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 2%;
 }
 .row-one{
     display: inline;
@@ -97,13 +98,9 @@ input{
 }
 
 .footer>image{
-    display: flex;
-    flex-direction: row;
     height: 20vh;
     margin: 2%;
     padding: 5px;
-    justify-content: space-around;
-    align-items: center;
 }
 
 #toggle-design, #toggle-dev, #toggle-project{
