@@ -31,7 +31,8 @@ $(document).ready(function() {
       $("#toggle-project").hide();
     });
 
-    // hover-display-name
+// hover-display-name
+    // 1. row-one
     $("#portfolio-image1").mouseover(function(){
       $("#quickmax").show();
     });
@@ -45,6 +46,24 @@ $(document).ready(function() {
     $("#portfolio-image2").mouseout(function(){
       $("#ontario").hide();
     });
+
+    $("#portfolio-image3").mouseover(function(){
+      $("#diamond").show();
+    });
+    $("#portfolio-image3").mouseout(function(){
+      $("#diamond").hide();
+    });
+
+    $("#portfolio-image4").mouseover(function(){
+      $("#webify").show();
+    });
+    $("#portfolio-image4").mouseout(function(){
+      $("#webify").hide();
+    });
+
+
+    // 2. row-two
+
 
 
 
