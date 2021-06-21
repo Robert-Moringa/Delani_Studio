@@ -63,9 +63,33 @@ $(document).ready(function() {
 
 
     // 2. row-two
+    $("#portfolio-image5").mouseover(function(){
+      $("#mental").show();
+    });
+    $("#portfolio-image5").mouseout(function(){
+      $("#mental").hide();
+    });
 
+    $("#portfolio-image6").mouseover(function(){
+      $("#mixcrate").show();
+    });
+    $("#portfolio-image6").mouseout(function(){
+      $("#mixcrate").hide();
+    });
 
+    $("#portfolio-image7").mouseover(function(){
+      $("#burned").show();
+    });
+    $("#portfolio-image7").mouseout(function(){
+      $("#burned").hide();
+    });
 
+    $("#portfolio-image8").mouseover(function(){
+      $("#girrafe").show();
+    });
+    $("#portfolio-image8").mouseout(function(){
+      $("#girrafe").hide();
+    });
 
 
     $("form").submit(function(){
