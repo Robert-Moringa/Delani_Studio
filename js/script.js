@@ -26,9 +26,9 @@ $(document).ready(function() {
       $("#toggle-project").show();
       $("#project-icon").hide();
     });
-    $("#toggle-dev").click(function(){
-      $("#dev-icon").show();
-      $("#toggle-dev").hide();
+    $("#toggle-project").click(function(){
+      $("#project-icon").show();
+      $("#toggle-project").hide();
     });
 
 
