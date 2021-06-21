@@ -28,6 +28,11 @@ p{
 }
 .portfolio{
     margin-top: 3%;
+
+}
+
+.portfolio>h3{
+    margin-bottom: 3%;
 }
 
 .portfolio-img{
