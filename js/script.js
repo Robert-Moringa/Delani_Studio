@@ -1,8 +1,12 @@
 $(document).ready(function() {
-    $(".clickable").click(function(){
+    $("#design-icon").click(function(){
         $("#toggle-design").show();
-        $("#design").hide();
+        $("#design-icon").hide();
     });
+    $("#toggle-design").click(function(){
+      $("#design-icon").show();
+      $("#toggle-design").hide();
+  });
 
 
     // hover
