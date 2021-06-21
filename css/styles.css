@@ -29,6 +29,22 @@ p{
 .portfolio{
     margin-top: 3%;
 }
+
+.portfolio-img{
+    cursor: pointer;
+}
+.portfolio-names{
+    color: red;
+    background-color:rgb(255,255,255);
+    opacity: 0.6;
+    display: none;
+    width: 120%;
+    padding-top: 45%; padding-bottom: 30%;
+    text-align: center;
+    margin-top: -100%;
+    cursor: pointer;
+    
+}
 .design {
     cursor: pointer;
 }

@@ -31,6 +31,15 @@ $(document).ready(function() {
       $("#toggle-project").hide();
     });
 
+    $("#portfolio-image1").mouseover(function(){
+      $("#quickmax").show();
+    });
+    $("#portfolio-image1").mouseout(function(){
+      $("#quickmax").hide();
+    });
+
+
+
 
     $("form").submit(function(){
       var name= $("#names").val();
