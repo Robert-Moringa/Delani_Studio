@@ -1,4 +1,5 @@
 $(document).ready(function() {
+    // toggle-design
     $("#design-icon").click(function(){
         $("#toggle-design").show();
         $("#design-icon").hide();
@@ -6,16 +7,30 @@ $(document).ready(function() {
     $("#toggle-design").click(function(){
       $("#design-icon").show();
       $("#toggle-design").hide();
-  });
-
-
-    // hover
-    $("#quickmax").hover(function(){
-      $(this).css("background-color", "yellow");
-      }, function(){
-      $(this).css("background-color", "pink");
     });
-  
+
+
+    // toggle-developement
+    $("#dev-icon").click(function(){
+      $("#toggle-dev").show();
+      $("#dev-icon").hide();
+    });
+    $("#toggle-dev").click(function(){
+      $("#dev-icon").show();
+      $("#toggle-dev").hide();
+    });
+
+
+    // toggle-project
+    $("#project-icon").click(function(){
+      $("#toggle-project").show();
+      $("#project-icon").hide();
+    });
+    $("#toggle-dev").click(function(){
+      $("#dev-icon").show();
+      $("#toggle-dev").hide();
+    });
+
 
     $("form").submit(function(){
       var name= $("#names").val();
